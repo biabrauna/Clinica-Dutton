@@ -171,9 +171,9 @@ public class CadastroMed extends javax.swing.JFrame {
 
     private void btnSalvar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvar2ActionPerformed
          boolean ok;
-      ok = salvar();
-      if(ok)
-          JOptionPane.showMessageDialog(null,"Médico salvo com sucesso");
+         ok = salvar();
+         if(ok)
+         JOptionPane.showMessageDialog(null,"Médico salvo com sucesso");
     }//GEN-LAST:event_btnSalvar2ActionPerformed
 
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
